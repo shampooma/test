@@ -2,7 +2,7 @@ name: learn-github-actions
 on: [push]
 jobs:
   yeah:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-      - run: npm i -g typescript && npm run ts2
+      # - run: npm i -g typescript && npm run ts2
       # - run: npm run start exit 0
