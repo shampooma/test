@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "../ts2js",
+    "esModuleInterop": true,
+    "typeRoots": [
+      "../@types",
+      "./node_modules/@types",
+    ]
+    // "module": "commonjs",
+    // "noImplicitAny": true,
+    // "preserveConstEnums": true,
+    // "sourceMap": true
+  },
+  "include": [
+      "../ts2"
+  ]
+}

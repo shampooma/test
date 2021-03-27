@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "outDir": "../ts1js",
+      // "module": "commonjs",
+      // "noImplicitAny": true,
+      // "preserveConstEnums": true,
+      // "sourceMap": true
+    },
+    "include": [
+        "../ts1"
+    ]
+}
